@@ -1,0 +1,4 @@
+BEGIN;
+DROP TABLE IF EXISTS measurements;
+DROP SCHEMA IF EXISTS timeseries;
+COMMIT;

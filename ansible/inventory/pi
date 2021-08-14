@@ -1,0 +1,2 @@
+[pi]
+rasberrypi01 asible_user=pi ansible_password=elephant

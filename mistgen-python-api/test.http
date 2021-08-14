@@ -1,0 +1,31 @@
+PUT http://127.0.0.1:5000/switch HTTP/1.1
+content-type: application/json
+
+{
+    "is_on": true
+}
+
+####
+
+PUT http://127.0.0.1:5000/switch HTTP/1.1
+content-type: application/json
+
+{
+    "is_on": false
+}
+
+###
+GET http://127.0.0.1:5000/sensor HTTP/1.1
+content-type: application/json
+
+{
+    "props": ["temperature","humidity"]
+}
+
+###
+GET http://127.0.0.1:5000/sensor HTTP/1.1
+content-type: application/json
+
+{
+    "propss": ["temperature","humidity"]
+}

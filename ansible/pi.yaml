@@ -1,0 +1,7 @@
+
+- hosts: pi
+  roles:
+  - role: geerlingguy.postgresql
+  - role: cloudalchemy.grafana
+  - role: mistgen-python
+  - role: mistgen-golang
